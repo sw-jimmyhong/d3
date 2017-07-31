@@ -1,0 +1,16 @@
+{
+
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "skipDefaultLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "watch": true
+  },
+  "exclude": [
+      "bin",
+      "node_modules"
+  ]
+}

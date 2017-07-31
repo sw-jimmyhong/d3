@@ -1,0 +1,29 @@
+{
+  "name": "d3v4-with-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "tsc && rollup -c",
+    "serve": "live-server src --watch=src/**/*.html,src/bundle.js,src/**/*.css",
+    "tsc:w": "tsc -w",
+    "rollup:w": "rollup -c -w",
+        "start": "npm-run-all --parallel serve tsc:w rollup:w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^4.10.0",
+    "live-server": "^1.2.0",
+    "npm-run-all": "^4.0.2",
+    "rollup": "^0.45.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-watch": "^4.3.1",
+    "typescript": "^2.4.2"
+  }
+}

@@ -1,0 +1,9 @@
+* {
+    font-family: "Helvetica Neue";
+}
+p, text {
+    font-size: 0.85em;
+}
+svg {
+    background: #000;
+}
